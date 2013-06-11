@@ -1,0 +1,55 @@
+<html>
+
+<head>
+	
+	<title>
+		My Home Page
+	</title>
+	
+</head>
+
+
+<body>	
+		
+	<h1>
+		Welcome to my home page	
+	</h1>
+		
+	<h2>
+		About me
+	</h2>
+			
+	<p>
+		This paragraph is all about me.
+		Could there be a <em>more fascinating</em> topic?
+	</p>
+	
+	
+	
+	<h2>
+		My Favorites
+	</h2>
+			
+		<h3>
+			Music
+		</h3>
+		<p>
+			They - Jem
+		</p>
+			
+		<h3>
+			Movies
+		</h3>
+			
+			
+
+	<h2>
+		Fun Stuff
+	</h2>
+		
+		<strong>Links</strong> I like:
+		<a href="links.html">my links page</a>
+	
+</body>
+
+</html>

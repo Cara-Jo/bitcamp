@@ -1,0 +1,112 @@
+/* =========================== Basic Text CSS Rules ============================= */
+
+/* Rules that apply to all elements on the page */
+
+body {
+	font-family: 'Georgia' serif;
+	background: white;
+	background-image: url(pics/blgr027.gif);
+	background-repeat: repeat-y;
+	background-position: 0px 0px;
+	}
+
+
+/* Rules that apply across an element  */
+h1 {
+	color: white; 
+	background: red; 
+	font-family: ‘Ariel’, sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1.5;
+	text-transform: uppercase;
+	}
+
+
+
+/* ========================= Placement CSS Rules ============================ */
+
+/* Rules that apply to specific elements */
+	
+div#favorites h2 {
+	color: blue;
+	}
+	
+div#favorites h3 {
+	color: blue;
+	}	
+	
+	
+	
+/* Rules that control placement and flow */
+	
+div#about-me {
+	height: 300px;
+	width: 700px;
+	position: relative;
+	top: 0px;
+	left: 100px;
+	}
+	
+div#about-me img {
+	float: left;
+	margin-left: 20px;
+	margin-right: 20px;
+	border-style: outset;
+	border-width: 8px;
+	}
+	
+div#favorites {
+	font-family: 'Copperplate Gothic Light' , sans-serif;
+	height: 500px;
+	width: 250px;
+	padding: 10px;
+	background-color: paleturquoise;
+	border-width: 10px;
+	position: absolute;
+	top: 140px;
+	left: 850px;
+	}
+	
+div#favorites h2 {
+	color: cornflowerblue;
+	margin: 10px;
+	text-align: center;
+	font-weight: normal;
+	font-size: 20px;
+	}
+	
+div#favorites h3 {
+	color: cornflowerblue;
+	margin: 10px;
+	font-weight: normal;
+	font-size: 15px;
+	}
+
+div#favorites p {
+	color: gray;
+	font-size: 13px;
+	position: relative;
+	left: 20px;
+	margin: 0px;
+	font-weight
+	}
+		
+div#fun-stuff {
+	width: 680px;
+	height: auto;
+	padding-left: 10px;
+	font-family: 'Ariel' , sans-serif;
+	border-color: grey;
+	border-style: solid;
+	border-width: 1px;
+	position: relative;
+	top: 0px;
+	left: 120px;
+	}	
+	
+div#fun-stuff h2 {
+	text-align: center;
+	color: grey;
+	}

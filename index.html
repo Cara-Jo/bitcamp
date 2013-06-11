@@ -1,0 +1,755 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>BitCamp 2013 Brought to you by Atomic Object</title>
+
+		<meta name="description" content="This is the official 2013 BitCamp 7/8th grade Detroit girls curriculum. Created by Atomic Object and Cara Jo Miller">
+		<meta name="author" content="Atomic Object & Cara Jo Miller">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<link rel="stylesheet" href="reveal/css/reveal.css">
+		<link rel="stylesheet" href="reveal/css/theme/atomic.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<!-- light editor<link rel="stylesheet" href="lib/css/light.css">-->
+		<!-- dark editor--><link rel="stylesheet" href="reveal/lib/css/light.css">
+
+		<!-- If use the PDF print sheet so students can print slides-->
+		
+		<link rel="stylesheet" href="reveal/css/print/pdf.css" type="text/css" media="print">
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+	<div class="reveal">
+		<!-- Any section element inside of this container is displayed as a slide -->
+		<div class="slides">
+		<!-- Opening slide -->
+		<section>
+			<img src="images/ao-large.png" alt="Atomic Object" class="no-border"/>
+			<h1>BitCamp 2013</h1>
+		</section>
+		<!-- Welcome-->
+		<section>
+			<h2>Welcome!</h2>
+			<div class = "left-align">
+				<p>What we're doing today:</p>
+				<ul>
+					<li>Build a web page</li>
+					<li>Explore how the internet works</li>
+					<li>Have some fun</li>
+					<li>Make new friends</li>
+				</ul>
+			</div>
+		</section>
+		<!-- meet your instructor-->
+		<section>
+			<h2>Meet Your Instructor</h2>
+			<h4>Cara Jo Miller</h4>
+			<h4>How I got started with the web!</h4>
+						<div class="left" style="width: 70%; font-size: 70%;">
+				<ul>
+					<li class="fragment"><span class="green">1996:</span> Built first computer from spare parts in my Dad's shop. </li>
+					<li class="fragment"><span class="green">1997:</span> Got bored on a snow day and decided to learn HTML from <a href="http://lissaexplains.com/">Lissa Explains it All</a></li>
+					<li class="fragment"><span class="green">1997:</span> Big into Pok&eacute;mon and drawing. Coded first site to showcase Pok&eacute;mon drawings to family members and friends.</li>
+					<li class="fragment"><span class="green">1998-2012:</span> Decided that the internet was the coolest thing in the world and decided to make a career out of it.</li>
+				</ul>
+			</div>
+			<div class="right" style="width:30%">
+				<img src="images/marill.jpeg"/>
+			</div>
+		</section>
+		
+		<section>
+			<h2>What is HTML anyways?</h2>
+			<p>HTML is the code that allows you to build web pages.</p>
+			<img src="images/nailpolish.png" alt="nailpolish" class="no-border"/>
+		</section>
+		 <section>
+          <h2>What Does it look like?</h2>
+          <p>If you 'view the source', you see this</p>
+          <img src = "images/homepage-html.png">
+        </section>
+        <section>
+          <h2>History of HTML</h2>
+          <ul class="left" style="width: 45%;">
+            <li><span class = "green">H</span>yper<span class = "green">T</span>ext <span class = "green">M</span>arkup <span class = "green">L</span>anguage</li>
+            <li>Invented by Tim Berners-Lee</li>
+            <li>Created "hypertext" to share scientific papers</li>
+            <li>First web page August 6, 1991</li>
+            <li>Standardized by w3 Consortium (pack of super nerds)</li>
+          </ul>
+          <div class="right" style="width: 45%;">
+          	<img src="images/timlee.png" />
+          </div>
+        </section>
+		<section>
+			<h2>Let's Get Started!!</h2>
+			<ol>
+				<li>Launch your text editor and open MyFirst.html</li>
+				<li>Launch Chrome and open MyFirst.html</li>
+				<li>Make some changes to the file and save it.</li>
+				<li>Reload the page in Chrome and see your changes!</li>
+			</ol>
+		</section>
+		<section>
+			<h2>Totally awesome right?</h2>
+			<p>But it's so boring! How do I make it more readable?</p>
+			<img src="images/boredcat.jpeg" />
+		</section>
+		<section>
+			<h2>Markup, that's how!</h2>
+			<p>Markup is what organizes your content to make it more readable for your website visitor.</p>
+			<p>After all we are writing in Hyper Text <strong class="green">MARKUP</strong> Language.</p>
+		</section>
+		<section>
+			<h2>Let's take a look at some markup</h2>
+			<ol>
+				<li>Open index.html with your text editor.</li>
+				<li>Take a look at the basic markup for a site.</li>
+			</ol>
+			<img src="images/basicmarkup.png" class="no-border"/>
+		</section>
+		<section>
+			<h2>HTML Elements</h2>
+			<p>Using HTML Elements (markup) adds structure to your content.</p>
+          <ul>
+            <li class ="fragment"><p>A paragraph is your content</p></li>
+            <li class = "fragment">
+              <div>Putting your content into an HTML tag to make it look like a paragraph is Structure</div>
+              <pre><code class ="html">
+                &lt;p>A paragraph is your content&lt;/p>
+              </code></pre>
+          </li>
+          </ul>
+        </section>
+        
+        
+        <section>
+        	<h2>&lt;html></h2>
+        	<div class="left-align">
+        	<p>The opening <code class="green">&lt;html></code> tag indicates the beginning of an HTML document.</p>
+        	<p>The closing tag indicates the end.</p>
+        	<p>Everything in between these tags is your website.</p>
+        	</div>
+        </section>
+        <section>
+        	<h2>&lt;head> &amp; &lt;body></h2>
+        	<div class="left-align">
+        		<p>The <code class="green">&lt;head></code> tag contains information about your page. This includes the title that shows up on the tab bars in the browser.</p>
+        		<p>The <code class="green">&lt;body></code> tag contains everything that is shown in the browser window. Content, images, links, EVERYTHING!</p>
+        </section>
+        <section>
+        	<h2>&lt;p></h2>
+        	<p>The <code class="green">&lt;p></code> tag contains content that is broken up into paragraphs.</p>
+ <pre><code>
+  &lt;p>Hi, welcome to BitCamp 2013! Let's make a website!&lt;/p>
+</code></pre>       	
+<p>Separating your content into paragraphs makes your content easier to read.</p>
+        </section>
+        <section>
+        	<h2>&lt;h1> - &lt;h6></h2>
+        	<p>Using headings to add titles to sections of your page.</p>
+        	          <div class = "left" style = "width:50%">
+<pre><code class = "html">
+  &lt;h1>Heading 1&lt;/h1>
+  &lt;h2>Heading 2&lt;/h2>
+  &lt;h3>Heading 3&lt;/h3>
+  &lt;h4>Heading 4&lt;/h4>
+  &lt;h5>Heading 5&lt;/h5>
+  &lt;h6>Heading 6&lt;/h6>
+</code></pre>
+          </div>
+          <div class = "left" style = "width:50%">
+            <h1 style = "font-size: 120%">Heading 1</h1>
+            <h2 style = "font-size: 110%">Heading 2</h2>
+            <h3 style = "font-size: 105%">Heading 3</h3>
+            <h4 style = "font-size: 95%">Heading 4</h4>
+            <h5 style = "font-size: 85%">Heading 5</h5>
+            <h6 style = "font-size: 75%">Heading 6</h6>
+          </div>
+          <p><small>The number of the heading indicates importance, not size. The browser assigns sizes to help your website visitor see the different in importance.</small></p>
+
+        </section>
+        <section>
+        	<h2>&lt;strong> &amp; &lt;em></h2>
+        	<div class="left" style="width: 45%;">
+        		<p>The <code class="green">&lt;strong></code> tag makes the text bold.</p>
+<pre><code class = "html"> 
+&lt;strong>I am bold&lt;/strong></code></pre>  
+<p><strong>I am bold</strong></p>    		
+        	</div>
+        	<div class="right" style="width: 45%;">
+        	        		<p>The <code class="green">&lt;em></code> tag makes the text italic.</p>
+<pre><code class = "html"> 
+&lt;em>I am italic&lt;/em></code></pre> 
+<p><em>I am italic</em></p>
+        	</div>
+        </section>
+        <section>
+        	<h2>Lists</h2>
+        	<p>Sometimes you want to add lists of things with bullets or numbers next to each item.</p>
+        	
+        	<div>
+        		<div class="left" style="width: 45%;">
+        		<h3>Unordered List</h3>
+<pre><code class = "html"> 
+&lt;ul>
+   &lt;li>Cats&lt;/li>
+   &lt;li>Birds&lt;/li>
+   &lt;li>Lizards&lt;/li>
+&lt;/ul></code></pre>
+<ul>
+<li>Cats</li>
+<li>Birds</li>
+<li>Lizards</li>
+</ul>         			
+        		</div>
+        		        		<div class="right" style="width: 45%;">
+        		<h3>Ordered List</h3>
+<pre><code class = "html"> 
+&lt;ol>
+   &lt;li>Open the file.&lt;/li>
+   &lt;li>Edit text.&lt;/li>
+   &lt;li>Save.&lt;/li>
+&lt;/ol></code></pre>
+<ol>
+<li>Open the file.</li>
+<li>Edit text.</li>
+<li>Save.</li>
+</ol>         			
+        		</div>
+        </section>
+        <section>
+        	<h2>Let's Code!</h2>
+        	<ul>
+        		<li>Open up index.html in your text editor.</li>
+        		<li>Start editing the markup already in place.</li>
+        		<li>Add two paragraphs under the "About Me" section. <br/>
+        		One for each of you.</li>
+        		<li>Add <em>Emphasis</em> &amp; <strong>bold</strong> styles to more text.</li>
+        		<li>Change the favorites categories and use lists to list your favorite things.</li>
+        	</ul>
+        	<h3>Extra Credit</h3>
+        	<ul class="left-align">
+        		<li><small>Change the unordered list to an ordered list and see what happens.</small></li>
+        		<li><small>Add more subheadings and list items of more fun stuff.</small></li>
+        		<li><small>Find a picture you like on the internet.</small></li>
+        	</ul>
+        </section>
+        <section>
+        	<h2>Making the text HyperText!</h2>
+        	<div class="left-align">
+        	<p>So we've covered the <strong class="green">MARKUP</strong> of Hyper Text Markup Language.</p>
+        	<p>But what's this <strong class="green">HYPER</strong> part all about?!</p>
+        	
+        	</div>
+        	<img src="images/hypercat.jpeg" />
+        </section>
+        <section>
+        	<h2>Links</h2>
+        	<p>Links, or anchor tags can take a user to a new page.</p>
+        	<p>The anchor tag wraps text to make it a clickable link.</p>
+<pre><code class = "html">
+&lt;a href="http://www.google.com">Google&lt;/a>
+</code></pre>
+		<p><a href="http://www.google.com">Google</a></p>
+		<p>The URL, or the web address goes inside quotation marks inside the opening tag.</p>
+		<p>"href" stands for HyperText Reference.</p>       	
+        </section>
+        <section>
+        	<h2>Images</h2>
+        	<p>Images make everything more interesting!</p>
+        	<p>The <code class="green">&lt;img></code> tag is one of the only tags that doesn't close, because it contains all the information it needs in one tag.</p>
+<pre><code class = "html">
+&lt;img src="http://girldevelopit.com/assets/pink-logo.png" alt="Girl Develop It Logo"/>
+</code></pre>    
+<img src ="http://girldevelopit.com/assets/pink-logo.png" />    	
+        </section>
+        <section>
+        	<h2>Images as links</h2>
+        	<p>Wrapping an <code class="green">&lt;img></code> tag in a link will make it clickable! You can link your image to anything too!</p>
+<pre><code class = "html">
+&lt;a href="http://girldevelopit.com">
+   &lt;img src="http://girldevelopit.com/assets/pink-logo.png" alt="Girl Develop It Logo"/>
+&lt;/a>
+</code></pre> 
+<a href="http://girldevelopit.com">
+   <img src="http://girldevelopit.com/assets/pink-logo.png" alt="Girl Develop It Logo"/>
+</a>         	
+        </section>
+        <section>
+        	<h2>Hypertext practice</h2> 
+	        <ul>
+	        	<li>Navigate the existing links and return</li>
+	        	<li>Add your own internet link in the middle of a paragraph or heading</li>
+	        	<li>Add one image between the About Me heading and the  first paragraph</li>
+	        	<li>Add one or more links under the Fun Stuff heading </li>
+	        </ul>
+	        <h3>Extra credit</h3>
+		       	<p>In the Fun Stuff section</p>
+		       	<ul>
+		       	<li><small>Use one of the images as a link</small></li>
+		       	<li><small>Add a link to a YouTube video (copy the URL from Share)</small></li>
+		       	<li><small>Embed a YouTube video (copy the embed tags from Share)</small></li>
+		       	</ul>
+        </section>
+ 		<section>
+			<h2>How do we make it pretty?</h2>
+			<p>Our page isn't really fun to look at, so let's use CSS to make it pretty.</p>
+			
+			<ul>
+				<li>CSS is a "style sheet language" that lets you style the elements on your page.</li>
+				<li>CSS is works in conjunction with HTML, but is not HTML itself.</li>
+			</ul>
+		</section>
+		<section>
+          <h2>CSS: What can it do?</h2>
+          <p>All colored text, position, and size</p>
+          <img src = "images/homepage-view.png">
+        </section>
+        
+        <section>
+          <h2>CSS: What does it look like?</h2>
+          <img src = "images/homepage-css.png">
+        </section>
+        
+        <section>
+        	<h2>Let's add some PRETTY!</h2>
+        	<p>Add the highlighted line below to your page.</p>
+        	<p>Save the file and reload it in Chrome to see if anything changes.</p>
+<pre><code>&lt;head>
+	&lt;title>
+		My Home Page
+	&lt;/title>
+	
+	<span style="background: yellow;">&lt;link rel="stylesheet" href="my-style.css"></span>
+	
+&lt;/head></code></pre>
+ 
+        </section>
+        <section>
+        	<h2>CSS Overview</h2>
+        	<p>Open up my-style.css and let's take a look at what's inside.</p>
+        </section>
+        <section>
+        <h2>The CSS Rule</h2>
+<pre><code class = "html">
+selector {
+  property: value;
+}
+</code></pre>
+          <div class = "left-align">
+            <p>A block of CSS code is a rule.</p>
+            <p>The rule starts with a selector.</p>
+            <p>It has sets of properties and values.</p>
+            <p>A property-value pair is a declaration.</p>
+          </div>
+        </section>
+        <section>
+          <h2>Color</h2>
+          <p>The color property changes the color of the text.</p>
+<pre><code class = "html">
+p {
+  color: red;
+}
+</code></pre>
+
+        </section>
+        
+        <!-- Background color-->
+        <section>
+          <h2>Background-color</h2>
+          <p>The background-color property changes the color of the background.</p>
+<pre><code class = "html">
+body {
+  background-color: black;
+}
+</code></pre>
+        </section>
+        <section>
+        	<h2>Standard CSS Colors</h2>
+        	<img src="images/csscolor.png" />
+        </section>
+        <section>
+          <h2>Background-image</h2>
+          <p>The background image property allows you to use any image as a background.</p>
+<pre><code class = "html">
+body {
+  background: url(images/imagename.jpg);
+}
+</code></pre>
+        </section>
+        <section>
+        	<h2>Background-repeat</h2>
+        	<p>The background-repeat property tells the browser how to repeat the image, or not to.</p>
+<pre><code class = "html">
+body {background-repeat: repeat;} 
+(repeats vertically and horizontally)
+
+body {background-repeat: repeat-x;} 
+(repeats horizontally)
+
+body {background-repeat: repeat-y;} 
+(repeats vertically)
+
+body {background-repeat: no-repeat;} 
+(doesn't repeat)
+</code></pre>
+        </section>
+ 
+        <!-- Font family-->
+        <section>
+          <h2>Font-family</h2>
+          <p>The font-family property deﬁnes which font is used.</p>
+<pre><code class = "html">
+p {
+  font-family: "Times New Roman";
+  font-family: serif;
+  font-family: "Arial", sans-serif;
+}
+</code></pre>
+          <p>Specific font name</p>
+          <p>Generic name</p>
+          <p>Comma-separated list</p>
+        </section>
+      
+        <!-- Font size -->
+        <section>
+          <h2>Font-size</h2>
+          <p>The font-size property speciﬁes the size of the font.</p>
+<pre><code class = "html">
+p {
+  font-size: 12px;
+}
+</code></pre>
+          <p>Pixels</p>
+      
+        </section>
+        <section>
+        	<h2>Text Styling Practice</h2>
+        	<ul>
+        		<li>Experiment with at least three of the h1 properties</li>
+        		<li>Add style rules for all headings and paragraph text</li>
+        		<li>Change the body background colors</li>
+        	</ul>
+        	<h3>Extra credit</h3>
+        	<ul>
+        		<li>Add a background image to the body</li>
+        		<li>Experiment with its other properties</li>
+        	</ul>
+         </section>
+        <section>
+        	<h2>Adding layout</h2>
+        	<div class="left left-align" style="width: 45%;"><p>Stacking text on top of one another is cool, but still a little boring right?</p>
+        	<p>Let's look at how we can divide up our content and style it differently.</p>
+        	</div>
+	        <div class="right" style="width: 45%;">
+	        	<img src="images/sample-layout.png" />
+	        </div>
+        </section>
+        
+        <section>
+        	<h2>&lt;div></h2>
+        	<ul>
+          <li>The div tag is used everywhere to group elements together into sections.</li>
+          <li>For example, what if we want the section about our favorite things to have a pink background?</li>
+          <li>We would wrap them in a div element to style them differently.</li>
+          </ul>
+        </section>
+        <section>
+        	<h2>Div exercise</h2>
+        	<p>Add the highlighted text below to your page</p>
+<pre><code class = "html">
+    <span style="background: yellow">&lt;div id=”favorites”></span>
+	    &lt;h2>My Favorites&lt;/h2>
+			
+		&lt;h3>Music&lt;/h3>
+		&lt;p>Joss Stone&lt;/p>
+		&lt;p>Jem&lt;/p>
+		
+		&lt;h3>Movies&lt;/h3>
+	<span style="background: yellow">&lt;/div></span>
+	
+	&lt;h2>Fun Stuff&lt;/h2>
+ </code></pre>
+<p>When you save the file and reload the page, you should see the section change colors.</p>
+        </section>  
+        <section>
+          <h2>Box Model</h2>
+          <img src ="images/box-model.png"/>
+        </section>
+        
+        <section>
+          <h2>Padding</h2>
+          <p>Space between the border and the content</p>
+          <p>Adds to the total width of the box.</p>
+          <img src ="images/box-model-padding.png"/>
+        </section>
+        <section>
+          <h2>Padding</h2>
+          15 pixels on all sides
+<pre><code class ="html">
+padding: 15px;
+</code></pre>
+          10 pixels on top only
+<pre><code class ="html">
+padding-top: 10px;
+</code></pre>
+          10 on top, 5 on right, 3 on bottom, 5 on left
+<pre><code class ="html">
+padding: 10px 5px 3px 5px;
+</code></pre>  
+        </section>
+        <section>
+          <h2>Margin</h2>
+          <p>The transparent area around the box that separates it from other elements.</p>
+          <img src ="images/box-model-margin.png"/>
+        </section>
+        <section>
+          <h2>Margin</h2>
+          <p>15 pixels on all sides</p>
+<pre><code class = "html">
+  margin: 15px;
+</code></pre>
+          <p>10 on top, 5 on right, 3 on bottom, 5 on left</p>
+<pre><code class ="html">
+  margin: 10px 5px 3px 5px;
+</code></pre>
+          <p>10 pixels on top</p>
+<pre><code class = "html">
+  margin-top: 10px;
+</code></pre>
+        </section>
+        
+        <section>
+          <h2>Auto Margin</h2>
+          <p>If a margin is set to auto on a box that has width, it will take up as much space as possible.</p>
+          <p>CENTERED</p>
+<pre><code class ="html">
+  margin: auto;
+  width: 300px;
+</code></pre>
+          <p>FLUSH-RIGHT</p>
+<pre><code class = "html">
+  margin-left: auto;
+  margin-right: 5px;
+  width: 300px;
+</code></pre>
+        </section>
+        <section>
+          <h2>Border</h2>
+          <p>The edge around the box, specified as "thickness, style, color."</p>
+          <img src ="images/box-model-border.png">
+        </section>
+        
+        <section>
+          <h2>Border</h2>
+          <p>A solid red border</p>
+<pre><code class = "html">
+  border: 1px solid #ff0000;
+</code></pre>
+          <p>A thick dotted black top border</p>
+<pre><code class ="html">
+  border-top: 4px dotted #000000;
+</code></pre>
+          <p>Two diﬀerent border styles</p>
+<pre><code class ="html">
+  border-top: 1px solid #ff0000;
+  border-bottom: 4px dotted #000000;
+</code></pre>
+        </section>
+       
+        <section>
+          <h2>Border - Other Properties</h2>
+<pre><code class ="html">
+  border-width: 10px;
+  border-style: dashed;
+  border-color: #666666;
+</code></pre>
+          <p>You can specify each property separately, or all three together.</p>
+        </section>
+        <section>
+			<h2>Property: Width</h2>
+			<p>Sets the width of an element.</p>
+			<p>Does not include padding or borders, remember these add to the width.</p>
+<pre><code class = "html">
+#favorites {
+  width: 500px;
+}
+</code></pre>
+		</section>	
+		<section>
+			<h2>Property: Height</h2>
+			<p>Sets the height of an element.</p>
+			<p>Does not include padding or borders, remember these add to the width.</p>
+<pre><code class = "html">
+#favorites {
+  height: 700px;
+}
+</code></pre>
+		</section>
+		<section>
+         <h2>Float</h2>
+         <div class = "left-align">
+          	<ul>
+          	<li>"Floating" an element takes it in the normal flow, as far to the left or right of it's containing element as possible.</li>
+          	<li>Any other elements, such as paragraphs or lists, will wrap around the floated element.</li>
+          	<li>Always specify a width when floating an element, otherwise the element is likely to take up the whole page and not appear floated.</li>
+            <li>You can specify a) whether an element is floated or not, and b) which side it ﬂoats on.</li>
+          	</ul>
+         </div>
+       </section>
+       <!--example float-->
+       <section>
+       <h3>Float: Example</h3>
+       <p>Below a &lt;blockquote> is floated to the left, allowing text to wrap around it on the right</p>
+       <img src="images/example-floatbq.png" alt="example float" />
+       </section>
+       <section>
+         <h2>Float</h2>
+<pre><code class ="html">
+  .float{
+    float:left;
+    width:200px;
+    background:yellow;
+  }
+</code></pre>
+       </section>
+       <section>
+       		<h2>Styling Exercise</h2>
+       		<ul>
+       		<li>Change the About Me to have the image float to one side of the text</li>
+       		<li>Add a division to limit the rules to just the About Me content.</li>
+       		<li>Add a border to the image and adjust the images size so it looks the way you want it</li>
+       		</ul>
+       		<h3>Extra Credit:</h3>
+       		<ul>
+       		<li>Move the position of the Favorites to the far right (like a side bar)</li>
+       		<li>Add a division to Fun Stuff and play with formatting</li>
+       		</ul>
+       </section>
+ 		<section>
+			<h2>A website for manufacturing</h2>
+			<img src="images/manu-website.png"/>
+		</section>
+		<section>
+			<h2>The data views</h2>
+			<img src="images/manu-data-website.png" />
+		</section>
+		<section>
+			<h2>It's a little boring right?</h2>
+			<img src="images/bored-puppy.jpg" />
+			<p>So boooooooooring.</p>
+		</section>
+		<section>
+			<h2>The New Design</h2>
+			<img src="images/manu-girl-website.png"/>
+		</section>
+		<section>
+			<h2>The New Data Views</h2>
+			<img src="images/manu-data-girl-website.png"/>
+		</section>
+		<section>
+			<h2>Which one is better?</h2>
+			<img src="images/which-manu.png"/>
+		</section>
+		<section>
+			<h2>Who made it better?</h2>
+			<div class="fragment">
+			<h3><a href="http://spin.atomicobject.com/2012/08/01/women-and-the-software-industry-the-truth-about-stereotypes-retention-and-the-gender-gap/ ">Brittany Hunter Did!</a></h3>
+			<img src="images/brittany-hunter.png"/>
+			</div>
+			
+		</section>
+		<section>
+			<h2>How do I get it to do cool stuff?</h2>
+			<h3>Javascript</h3>
+			<img src="images/js-example.png"/>
+		</section>
+		<section>
+			<h2>Add Javascript</h2>
+			<p>Add the highlighted code below to your page and see what happens!</p>
+<pre><code class="html">
+&lt;h2>Fun Stuff&lt;/h2>
+   .
+   .				
+   <span style="background: yellow;">&lt;input type="button" 
+	  name="ask-button" 
+	  value="Ask the Crystal Ball" 
+	  onClick="getAnswer()">
+
+   &lt;p id="ball-answer">&lt;/p>
+	
+   &lt;script src="crystal-ball.js">&lt;/script></span>	
+&lt;/body>
+
+&lt;/html></code></pre>
+		</section>
+		<section>
+			<h2>Quick JS Exercise</h2>
+			<ul>
+				<li>Change the crystal ball answers list and test. (crystal-ball.js)</li>
+				<li>Add the I'd Rather game (would_you_rather.js)</li>
+			</ul>
+			<h3>Extra Credit</h3>
+			<ul>
+				<li>Using Helpers, see if you can put the question, as part of the answer.</li>
+			</ul>
+		</section>
+		<!-- Questions -->
+		<section>
+			<h2>Questions?</h2>
+				<p>We're here to help!</p>
+				<div style = "font-size:1200%; height:100%; margin-top:20%" class ="blue">?
+					<div class ="clear"></div>
+				
+				</div>
+		</section>
+		
+	</div>
+	<footer>
+
+</footer>
+</div>
+
+
+		<script src="reveal/lib/js/head.min.js"></script>
+		<script src="reveal/js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'reveal/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'reveal/plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'reveal/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'reveal/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'reveal/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'reveal/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>

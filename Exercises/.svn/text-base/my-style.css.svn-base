@@ -1,0 +1,38 @@
+/* =========================== Basic Text CSS Rules ============================= */
+
+/* Rules that apply to all elements on the page */
+
+body {
+	font-family: 'Georgia' serif;
+	background: white;
+	}
+
+
+/* Rules that apply across a specific element  */
+h1 {
+	color: white; 
+	background: red; 
+	font-family: ‘Ariel’, sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	line-height: .75;
+	}
+
+
+
+/* ========================= Placement CSS Rules ============================ */
+
+/* Rules that apply to specific elements */
+	
+div#favorites h2 {
+	color: blue;
+	}
+	
+div#favorites h3 {
+	color: blue;
+	}	
+	
+	
+	
+/* Rules that control placement and flow */

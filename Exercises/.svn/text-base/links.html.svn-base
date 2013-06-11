@@ -1,0 +1,71 @@
+<html>
+
+<head>
+	<title>
+		My Links Page
+	</title>
+</head>
+
+
+<body>
+	<h1>
+		Welcome to my links page
+	</h1>
+	
+	The only search engine I use is	
+	<a href="http://google.com/">Google</a>
+	
+	<p>
+		This is a simple table
+	</p>
+	<table border="2">
+		<th>
+			Heading 1
+		</th>
+
+		<th>
+			Heading 2
+		</th>
+
+		<!-- row 1 -->
+		<tr>
+			<!-- column 1 -->
+			<td>
+				first row, first column
+			</td>
+			
+			<!-- column 2 -->
+			<td>
+				the second thing in the row
+			</td>
+		</tr>
+		
+		<!-- row 2 -->
+		<tr>
+		</tr>
+		
+		<!-- row 3>
+		<tr>
+		</tr>	
+		
+	</table>
+	
+	<h2>
+		Some pictures I like
+	</h2>
+	
+	<p>
+		Here's a cow:
+	</p>
+	
+	<img src="http://home.swipnet.se/mooamp/gfx/cow.gif"/>
+	
+	<p>
+		And here's Atomic Object:
+	</p>	
+
+	<img src="AO_Fall05_360x270.jpg"/>
+	
+</body>
+
+</html>

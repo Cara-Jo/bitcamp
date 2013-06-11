@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Would You Rather?</title>
+    <script type="text/javascript" src="would_you_rather.js"></script>
+  </head>
+
+  <body>
+    <div id="ask-button">
+      <button onClick="wouldYouRather();">Would You Rather...</button>
+    </div>
+    <div id="question-area"></div>
+    <div id="answer-area">
+      <ul id="answer-list"></ul>
+    </div>
+  </body>
+</html>
